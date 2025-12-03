@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Opiniões - ANUP MALLA</title>
+  <link rel="stylesheet" href="opinioes.css" />
+  <link rel="stylesheet" href="css de portfolio/portfolio.css" />
+</head>
+<body>
+
+<header>
+  <img src="imagesss/9f0668ff327db638e13e10705a6ebb56-Photoroom.png" class="logo" alt="Logo AM" />
+  <div class="menu-toggle" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <nav class="nav-menu">
+    <a href="index.html">HOME</a>
+    <a href="portfolio.html">PORTFÓLIO</a>
+    <a href="sobre.html">SOBRE</a>
+    <a href="contacto.html">CONTACTO</a>
+    <a class="active" href="opinioes.html">OPINIÕES</a>
+  </nav>
+</header>
+
+<main class="reviews-container">
+  <h1 class="reviews-title">Opiniões dos Clientes</h1>
+  <p class="reviews-subtitle">Veja o que os meus clientes dizem sobre o meu trabalho</p>
+
+  <section class="reviews-grid">
+    <article class="review-card">
+      <img src="imagens de portfolio/1.png" alt="João Silva" class="review-avatar">
+      <h3 class="review-name">João Silva</h3>
+      <div class="review-rating">
+        ★★★★★
+      </div>
+      <p class="review-text">
+        "Trabalho excepcional! Anup transformou a minha ideia em uma experiência visual incrível. Profissionalismo e criatividade de alto nível."
+      </p>
+      <cite class="review-company">Empresa XYZ</cite>
+    </article>
+
+    <article class="review-card">
+      <img src="imagens de portfolio/2.jpg" alt="Maria Santos" class="review-avatar">
+      <h3 class="review-name">Maria Santos</h3>
+      <div class="review-rating">
+        ★★★★★
+      </div>
+      <p class="review-text">
+        "Muito satisfeita com o resultado final. Anup é talentoso e entrega sempre no prazo. Recomendo fortemente os seus serviços."
+      </p>
+      <cite class="review-company">Startup ABC</cite>
+    </article>
+
+    <article class="review-card">
+      <img src="imagens de portfolio/3.png" alt="Pedro Costa" class="review-avatar">
+      <h3 class="review-name">Pedro Costa</h3>
+      <div class="review-rating">
+        ★★★★☆
+      </div>
+      <p class="review-text">
+        "Excelente trabalho em animação 3D. Anup tem uma visão única e sabe como contar histórias através das imagens."
+      </p>
+      <cite class="review-company">Produtora DEF</cite>
+    </article>
+
+    <article class="review-card">
+      <img src="imagens de portfolio/4.webp" alt="Ana Ferreira" class="review-avatar">
+      <h3 class="review-name">Ana Ferreira</h3>
+      <div class="review-rating">
+        ★★★★★
+      </div>
+      <p class="review-text">
+        "Profissional dedicado e criativo. O meu projeto de design multimédia ficou perfeito. Vale cada euro investido."
+      </p>
+      <cite class="review-company">Agência GHI</cite>
+    </article>
+
+    <article class="review-card">
+      <img src="imagens de portfolio/5.jpg" alt="Carlos Oliveira" class="review-avatar">
+      <h3 class="review-name">Carlos Oliveira</h3>
+      <div class="review-rating">
+        ★★★★★
+      </div>
+      <p class="review-text">
+        "Anup é um artista digital excepcional. A sua atenção aos detalhes e inovação fazem toda a diferença nos projetos."
+      </p>
+      <cite class="review-company">Empresa JKL</cite>
+    </article>
+
+    <article class="review-card">
+      <img src="imagens de portfolio/6.png" alt="Sofia Rodrigues" class="review-avatar">
+      <h3 class="review-name">Sofia Rodrigues</h3>
+      <div class="review-rating">
+        ★★★★☆
+      </div>
+      <p class="review-text">
+        "Trabalho de alta qualidade e entrega pontual. Anup sabe exatamente como materializar ideias complexas em realidade visual."
+      </p>
+      <cite class="review-company">Freelancer</cite>
+    </article>
+  </section>
+</main>
+
+<script>
+function toggleMenu() {
+ const toggle = document.querySelector('.menu-toggle');
+ const nav = document.querySelector('.nav-menu');
+ toggle.classList.toggle('active');
+ nav.classList.toggle('active');
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sobre - ANUP MALLA</title>
+  <link rel="stylesheet" href="sobre.css" />
+  <link rel="stylesheet" href="css de portfolio/portfolio.css" />
+</head>
+<body>
+
+<header>
+  <img src="imagesss/9f0668ff327db638e13e10705a6ebb56-Photoroom.png" class="logo" alt="Logo AM" />
+  <div class="menu-toggle" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <nav class="nav-menu">
+    <a href="index.html">HOME</a>
+    <a href="portfolio.html">PORTFÓLIO</a>
+    <a class="active" href="sobre.html">SOBRE</a>
+    <a href="contacto.html">CONTACTO</a>
+    <a href="opinioes.html">OPINIÕES</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        ANUP<br />
+        MALLA
+      </h1>
+      <p class="hero-description">
+        Artista Digital & Designer Multimédia
+      </p>
+    </div>
+    <div class="hero-image">
+      <img src="imagesss/ChatGPT Image 4_10_2025, 19_03_46 (1).png" alt="Foto do Anup em traje" class="sobre-photo" />
+    </div>
+  </section>
+
+  <section class="about-section">
+    <div class="about-content">
+      <h2>Sobre Mim</h2>
+      <p>
+        Sou artista digital especializado em design multimédia e animação 3D. Transformo ideias em experiências visuais impactantes, combinando criatividade, técnica e inovação. O meu trabalho abrange 2D, 3D, vídeo, som e animação, sempre com atenção à narrativa e aos detalhes.
+      </p>
+      <p>
+        Com anos de experiência no setor, desenvolvi um estilo único que combina estética moderna com funcionalidade técnica. Cada projeto é uma oportunidade para inovar e criar algo verdadeiramente memorável.
+      </p>
+    </div>
+  </section>
+
+  <section class="skills-section">
+    <h2>Competências</h2>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <div class="skill-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+          </svg>
+        </div>
+        <h3>Design 3D</h3>
+        <ul>
+          <li>Modelação 3D</li>
+          <li>Texturização</li>
+          <li>Iluminação</li>
+          <li>Animação</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <div class="skill-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+            <circle cx="9" cy="9" r="2"/>
+            <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/>
+          </svg>
+        </div>
+        <h3>Design Gráfico</h3>
+        <ul>
+          <li>Branding</li>
+          <li>UI/UX Design</li>
+          <li>Ilustração Digital</li>
+          <li>Motion Graphics</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <div class="skill-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+            <line x1="8" y1="21" x2="16" y2="21"/>
+            <line x1="12" y1="17" x2="12" y2="21"/>
+          </svg>
+        </div>
+        <h3>Tecnologias</h3>
+        <ul>
+          <li>Blender</li>
+          <li>Adobe Creative Suite</li>
+          <li>After Effects</li>
+          <li>Premiere Pro</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="experience-section">
+    <h2>Experiência</h2>
+    <div class="experience-timeline">
+      <div class="experience-item">
+        <div class="experience-year">2020 - Presente</div>
+        <div class="experience-content">
+          <h3>Artista Digital Freelance</h3>
+          <p>Trabalho independente com clientes internacionais, desenvolvendo projetos de animação 3D e design multimédia.</p>
+        </div>
+      </div>
+      <div class="experience-item">
+        <div class="experience-year">2018 - 2020</div>
+        <div class="experience-content">
+          <h3>Designer na Empresa XYZ</h3>
+          <p>Responsável pela criação de conteúdo visual para campanhas publicitárias e projetos corporativos.</p>
+        </div>
+      </div>
+      <div class="experience-item">
+        <div class="experience-year">2016 - 2018</div>
+        <div class="experience-content">
+          <h3>Estagiário em Design</h3>
+          <p>Aprendizado e desenvolvimento de habilidades em design gráfico e animação digital.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script>
+function toggleMenu() {
+ const toggle = document.querySelector('.menu-toggle');
+ const nav = document.querySelector('.nav-menu');
+ toggle.classList.toggle('active');
+ nav.classList.toggle('active');
+}
+</script>
+
+</body>
+</html>
